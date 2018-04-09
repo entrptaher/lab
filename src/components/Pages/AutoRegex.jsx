@@ -26,7 +26,8 @@ class App extends React.Component {
       <div className="jumbotron">
         <h1 className="display-5">Generate Regex Automatically!</h1>
         <p className="lead">The regexGen() function generates a regex from a single word sample. By using single sample, the generated regex will not match words that are identical to the sample but will match words having the exact same properties like the sample's properties.</p>
-        <a className="btn btn-primary btn-lg" href="https://github.com/entrptaher/autoregex" role="button" target="_blank">Learn more</a>
+        <a className="btn btn-primary" href="https://github.com/entrptaher/autoregex" role="button" target="_blank">Learn more</a>
+        <a className="btn btn-secondary" href="https://github.com/KHTamim/Automated-Regular-Expression-Generation" role="button" target="_blank">Orignal Script Source</a>
         <hr className="my-4" />
         <h3 className="text-center">Testing Ground</h3>
         <p><input type="text" className="form-control" placeholder="Sample Data" onChange={this.changeSampleText} value={this.state.sampleText} /></p>
