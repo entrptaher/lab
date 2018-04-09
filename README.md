@@ -1,2 +1,2 @@
 # lab
-[Imgur](https://i.imgur.com/oywKmlO.gifv)
+![Imgur](https://i.imgur.com/oywKmlO.gifv)
