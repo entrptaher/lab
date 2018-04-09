@@ -5,7 +5,7 @@ const App = () => (
             <div className="row">
                 <div className="col-md-6">
                     <h5 className="text-uppercase">About TahyLabs</h5>
-                    <p>Started as a base for a simple portfolio but ended up as a fun project. </p>
+                    <p>Started as a base for a simple portfolio but ended up as a fun project. Takes fun little scripts and takes them on a new level by making small changes.</p>
                 </div>
                 <div className="col-md-3">
                     <h5 className="text-uppercase">Find Me In Web</h5>

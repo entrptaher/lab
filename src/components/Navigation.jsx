@@ -11,7 +11,7 @@ const Navigation = () => (
           <Nav to="/" className="navbar-brand">TahyLabs</Nav>
         </li>
         <li className="nav-item">
-          <a href="https://github.com/TahyLabs" className="nav-link">Github</a>
+          <a href="https://github.com/entrptaher/lab" className="nav-link">Source Code</a>
         </li>
       </ul>
     </div>
