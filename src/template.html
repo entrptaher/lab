@@ -1,14 +1,43 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <title>TahyLabs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+  <style>
+    .loading .child {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+  </style>
 </head>
+
 <body>
   <div class="container">
-    <div id="app">Loading...</div>
+    <div id="app">
+      <div class="loading">
+        <div class="parent">
+          <div class="child">
+            <img src="static/drawing1_animated.svg" />
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <script type="text/javascript">
+    var resource = document.createElement('link');
+    resource.setAttribute("rel", "stylesheet");
+    resource.setAttribute("href", "https://bootswatch.com/4/yeti/bootstrap.min.css");
+    resource.setAttribute("type", "text/css");
+    var head = document.getElementsByTagName('head')[0];
+    head.appendChild(resource);
+
+  </script>
+
 </body>
+
 </html>
