@@ -49,7 +49,15 @@ class App extends React.Component {
             role="button"
             target="_blank"
           >
-            Learn more
+            Autoregex
+          </a>
+          <a
+            className="btn btn-primary"
+            href="https://github.com/entrptaher/regex-optimizations"
+            role="button"
+            target="_blank"
+          >
+            Regex Optimization
           </a>
           <a
             className="btn btn-secondary"
